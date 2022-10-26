@@ -1,7 +1,6 @@
 #include <semaphore.h>
 #include <stdio.h>
 #include <unistd.h>
-#include <wait.h>
 int main()
 {
     sem_t my_semaphore;
